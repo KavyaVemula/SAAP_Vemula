@@ -1,3 +1,12 @@
+/**
+ * file: Euclidean.java
+ * author: Kavya Vemula
+ * course: MSCS 630
+ * assignment: Lab 2
+ * due date: February 8, 2017
+ * 
+ * This file finds the gcd of two numbers using Euclidean algorithm
+ */
 import java.util.Scanner;
 class Euclidean
 {
@@ -19,6 +28,17 @@ class Euclidean
 			euclidAlg(input[i],input[i+1]);			
 		}
     }
+	/**
+     * euclidAlg
+     *  
+     * This is a recursive function that calculates gcd
+     * The base condition here is until remainder becomes 0
+     * Parameters: 
+     *   input[]: Digits entered in each line
+     * 
+     * Return value: 
+     *   GCD of the entered digits
+     */
 	public static void euclidAlg(int a, int b)
 	{
 		q1= a/b;
