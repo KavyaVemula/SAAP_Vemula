@@ -18,7 +18,7 @@ public class Encryption {
     System.out.println("Enter number of lines");
     int lines= Integer.parseInt(br.readLine());
     String[] input= new String[50];                              //Array that stores each line at each index position
-    for(int i=1; i<=lines; i++){                                     //Accepting input for each line separately and storing it in an array at different index positions
+    for(int i=1; i<=lines; i++){                                 //Accepting input for each line separately and storing it in an array at different index positions
       System.out.println("Enter line " +i);
       input[i]=br.readLine();
     }
