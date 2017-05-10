@@ -2,12 +2,12 @@
  * file: DriverAES.java
  * author: Kavya Vemula
  * course: MSCS 630
- * assignment: Lab 4
- * due date: April 5, 2017
+ * assignment: Lab 5
+ * due date: May 7, 2017
  *
  * This file accepts the input from User
- * and passes this input to aesRoundKeys function as
- * a parameter to generate the Round Keys.
+ * and passes this input to aes function as
+ * a parameter to generate the cipher text.
  */
 import java.util.Scanner;
 
